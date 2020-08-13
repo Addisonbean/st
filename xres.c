@@ -62,17 +62,18 @@ xrdb_load(void)
 
 		XRESOURCE_LOAD_STRING("foreground", colorname[defaultfg]);
 		XRESOURCE_LOAD_STRING("background", colorname[defaultbg]);
-		XRESOURCE_LOAD_STRING("cursorfg", colorname[defaultcs])
+		XRESOURCE_LOAD_STRING("cursorbg", colorname[defaultcs])
 		else {
-		  // this looks confusing because we are chaining off of the if
-		  // in the macro. probably we should be wrapping everything blocks
-		  // so this isn't possible...
-		  defaultcs = defaultfg;
+			// this looks confusing because we are chaining off of the if
+			// in the macro. probably we should be wrapping everything blocks
+			// so this isn't possible...
+			defaultcs = defaultfg;
 		}
-		XRESOURCE_LOAD_STRING("cursorbg", colorname[defaultrcs])
+		/* I can't tell what this does... */
+		XRESOURCE_LOAD_STRING("cursorfg", colorname[defaultrcs])
 		else {
-		  // see above.
-		  defaultrcs = defaultbg;
+			// see above.
+			defaultrcs = defaultbg;
 		}
 
 		XRESOURCE_LOAD_STRING("font", font);

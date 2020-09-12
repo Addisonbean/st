@@ -2,3 +2,4 @@ patches/**
 config.h
 *.o
 st
+.ccls-cache/

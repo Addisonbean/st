@@ -81,9 +81,9 @@ xrdb_load(void)
 
 		/* XRESOURCE_LOAD_INTEGER("blinktimeout", blinktimeout); */
 		/* XRESOURCE_LOAD_INTEGER("bellvolume", bellvolume); */
-		/* XRESOURCE_LOAD_INTEGER("disablebold", disablebold); */
-		/* XRESOURCE_LOAD_INTEGER("disableitalic", disableitalic); */
-		/* XRESOURCE_LOAD_INTEGER("disableroman", disableroman); */
+		XRESOURCE_LOAD_INTEGER("disablebold", disablebold);
+		XRESOURCE_LOAD_INTEGER("disableitalic", disableitalic);
+		XRESOURCE_LOAD_INTEGER("disableroman", disableroman);
 		XRESOURCE_LOAD_INTEGER("borderpx", borderpx);
 		/* XRESOURCE_LOAD_INTEGER("borderless", borderless); */
 		/* XRESOURCE_LOAD_INTEGER("cursorshape", cursorshape); */

@@ -3,3 +3,4 @@ config.h
 *.o
 st
 .ccls-cache/
+compile_commands.json

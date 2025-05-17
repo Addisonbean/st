@@ -7,6 +7,10 @@
  */
 // static char *font = "Liberation Mono:pixelsize=20:antialias=true:autohint=true";
 static char *font = "Liberation Mono:size=15:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+		"Noto Color Emoji:pixelsize=20:antialias=true:autohint=true",
+};
 
 /* disable bold, italic and roman fonts globally */
 int disablebold = 0;
